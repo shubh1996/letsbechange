@@ -1,1 +1,79 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+html{
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+
+body{
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.data-container{
+    height:100%;
+    width:100%;
+    text-align: center;
+    margin-top:100px;
+}
+.navbar{
+    padding-top:10px;
+    opacity:0.9;
+}
+.navbar-image img{
+        opacity: 1;
+        height:100px;
+        width:100px;
+    }
+.home-blocks{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size:cover;
+
+}
+.data-block{
+    color:white;
+}
+#data-b1{
+    position: relative;
+    top:30%;
+}
+#data-b2{
+    float:right;
+    position: relative;
+    top: 40%;
+}
+#data-b3{
+    float:left;
+    position: relative;
+    top:40%;
+}
+#data-b4{
+    float:right;
+    position:relative;
+    top:40%;
+}
+.home-blocks:hover{
+    opacity:0.9;
+}
+#block1{
+    background-image: url(/images/IMG_6466.png);
+}
+
+#block2{
+    background-image: url(/images/1-3.jpg);
+}
+#block3{
+    /*background-image: url(/images/IMG_8744.jpg);*/
+    background-image: url(/images/imageee.png);
+  
+}
+#block4{
+    background-image: url(/images/anunt1.jpg);
+}
